@@ -1,7 +1,7 @@
 Project Title: My Advanced Blog
 
 Description:
-This is a webpage built using HTML, CSS, JS, and Bootstrap 5.
+This webpage was built using HTML, CSS, JS, and Bootstrap 5.
 
 Project Structure:
 index.html: The main HTML file for the webpage.
