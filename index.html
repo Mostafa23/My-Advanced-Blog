@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Page Title -->
+        <title>My Advanced Blog</title>
+
+        <!-- Links -->
+        <!-- Bootstrap 5.3.3 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        
+        <!-- CSS File -->
+        <link rel="stylesheet" href="css/styles.css"> 
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg bg-primary text-white py-3" data-bs-theme="dark">
+                <div class="container">
+                    <!-- Blog Brand/Logo -->
+                    <a class="navbar-brand" href="#">My Advanced Blog</a>
+                    <!-- Toggler Button for Mobile View -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Collapsible Menu -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto custom-flex-end-column">
+                            <!-- Navigation Links -->
+                            <li class="nav-item"><a class="nav-link p-2 active" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link p-2" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link p-2" href="#">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link p-2" href="#">Portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- Main -->
+        <main class="container my-5">
+            <div class="row">
+                <!-- Articles -->
+                <article class="col-md-8">
+                    <!-- Article Card 1 -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">First Advanced Article Title</h2>
+                            <p class="card-text">This is some sample text for the first article. The full content of the article could be displayed here. Feel free to add more content and style it as needed.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Article Card 2 -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">Second Advanced Article Title</h2>
+                            <p class="card-text">This is some sample text for the second article. The full content of the article could be displayed here. Experiment with different layouts and design enhancements.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Article Card 3 -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">Third Advanced Article Title</h2>
+                            <p class="card-text">This is some sample text for the third article. Challenge yourself to add more features and make the blog more interactive and user-friendly.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sidebar -->
+                <aside class="col-md-4">
+                    <!-- About the Blog Card -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">About the Blog</h3>
+                            <p>This blog is more advanced, requiring enhancements and restructuring. Consider adding more sections and making it dynamic with JavaScript.</p>
+                        </div>
+                    </div>
+
+                    <!-- Useful Links Card -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Useful Links</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="link-offset-2 link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Home</a></li>
+                                <li><a href="#" class="link-offset-2 link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">About the Author</a></li>
+                                <li><a href="#" class="link-offset-2 link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Contact Us</a></li>
+                                <li><a href="#" class="link-offset-2 link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Recent Posts Card -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Recent Posts</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="link-offset-2 link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover lower-text">How to Improve Your Blog</a></li>
+                                <li><a href="#" class="link-offset-2 link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover lower-text">Understanding CSS Grid</a></li>
+                                <li><a href="#" class="link-offset-2 link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover lower-text">10 JavaScript Tips and Tricks</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-4">
+            <div class="container d-flex justify-content-between align-items-center">
+                <!-- Connect Us Text -->
+                <span class="text-white" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#contactModal">Connect Us</span>
+        
+                <!-- Footer Text -->
+                <p class="mb-0">All Rights Reserved © 2024 | Designed by Mostafa</p>
+            </div>
+        
+            <!-- Back to Top Button -->
+            <button id="back-to-top" class="btn btn-primary position-fixed backToTop"> ↑ </button>
+        </footer>
+        
+
+        <!-- Contact US Form Modal -->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- header: title and close button -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="modal-body">
+                        
+                        <!-- sends data to Formspree -->
+                        <form id="contact-form">
+                            <!-- action="https://formspree.io/f/mnnardwv" method="post" -->
+                            
+                            <!-- Input user name -->
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            
+                            <!-- Input phone number -->
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Your Phone" required>
+                            </div>
+                            
+                            <!-- Input email -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            
+                            <!-- Text message -->
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary w-100">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- JavaScript Files -->
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+        <!-- script File -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
